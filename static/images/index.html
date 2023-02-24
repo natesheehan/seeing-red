@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Rock+Salt&display=swap" rel="stylesheet">   
+<img style="z-index:10000;color:black;text-align:center;margin:auto;display:block;width:8em;margin-top:2em;font-size:32px;font-family: 'Rock Salt', cursive;  transform: rotate(-15deg)
+             skew(-15deg);letter-spacing:-12.5px;position: relative; z-index: 100000;" src="logo.png">
+
+
+
+  <!-- This SVG is from https://codepen.io/Ali_Farooq_/pen/gKOJqx -->
+  
+
+<div id="gallery">
+  
+
+
+    <!-- <div class="wrapper">
+      <h1 style="text-align: center;font-weight: bolder;font-size: xx-large;"> ARCHIVE </h1>
+      <img src="./static/images/HILL BILLY SHIRT.png" alt="" style="height:600PX;width:600PX">
+      <img src="./static/images/long johns and jacket.png" alt="" style="height:600PX;width:600PX">
+      <img src="./static/images/top and waterbag.png" alt="" style="height:600PX;width:600PX">
+  <img src="./static/images/BAG AND TROUSERS.png" alt="" style="height:600PX;width:600PX">
+
+ 
+    </div>
+     -->
+     <img src="./static/images/coming soon.png" alt="" style="height: 160vh;">
+ 
+</div>
+
+
+
+<!-- <a id="source-link" class="meta-link" href="https://palette.supply" target="_blank">
+  <i class="fa-solid fa-link"></i>
+  <span>Source</span>
+</a>
+<a id="yt-link" class="meta-link" href="https://youtu.be/GHZBa_R93ag" target="_blank">
+  <i class="fa-brands fa-github"></i>
+  <span>Github</span>
+</a>
+
+
+<p style="color:black;font-family: 'Rock Salt', cursive;position:fixed;bottom:0;right:0"> NATHANAEL SHEEHAN @ GMAIL . COM </p> -->
+</body>
+<style>
+    body {
+  background-image: url("background for website.png");
+  background-repeat: no-repeat, repeat;
+  background-color: white;
+  background-size: 160vh;
+  background-position: center;
+  background-attachment: scroll;
+width: 100vw;
+z-index: 10;
+  height: 100vh;  
+  margin: 0px;
+  overflow: hidden;
+}
+.wrapper {
+  display: grid;
+  position:fixed;
+  top:20%;
+  left: 40%;
+  z-index: 10;
+
+
+}
+
+.blob {
+  position: absolute;
+  top: 0;
+  left: 0;
+ /* Created with https://www.css-gradient.com */
+fill: #5A9C72;
+
+  width: 50vmax;
+  z-index: -1;
+  animation: move 10s ease-in-out infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes move {
+  0%   { transform: scale(1)   translate(10px, -30px); }
+  38%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
+  40%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
+  78%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
+  80%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
+  100% { transform: scale(1)   translate(10px, -30px); }
+}
+
+
+#gallery {
+  height: 240vmax;
+  width: 240vmax;  
+  position: fixed;
+  opacity: 1;
+}
+
+.tile {
+  border-radius: 1vmax;
+  position: absolute;
+  transition: transform 800ms ease;
+}
+
+.tile:hover {
+  transform: scale(1.1);
+}
+
+.tile:hover > img {
+  opacity: 1;
+  transform: scale(1.01);
+}
+
+.tile > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 800ms ease,
+    transform 800ms ease;
+}
+
+.tile:nth-child(1) {
+/* Created with https://www.css-gradient.com */
+background: #98F6DA;
+background: -webkit-linear-gradient(bottom right, #98F6DA, #6EE57B);
+background: -moz-linear-gradient(bottom right, #98F6DA, #6EE57B);
+background: linear-gradient(to top left, #98F6DA, #6EE57B);
+  height: 14%;
+  width: 20%;
+  left: 5%;
+  top: 5%;
+}
+
+.tile:nth-child(2) {
+  /* Created with https://www.css-gradient.com */
+background: #6D39AC;
+background: -webkit-linear-gradient(bottom right, #6D39AC, #31F240);
+background: -moz-linear-gradient(bottom right, #6D39AC, #31F240);
+background: linear-gradient(to top left, #6D39AC, #31F240);
+  height: 24%;
+  width: 14%;
+  left: 42%;
+  top: 12%;
+}
+
+.tile:nth-child(3) {
+/* Created with https://www.css-gradient.com */
+background: #E0FC9A;
+background: -webkit-linear-gradient(bottom right, #E0FC9A, #7DB8BE);
+background: -moz-linear-gradient(bottom right, #E0FC9A, #7DB8BE);
+background: linear-gradient(to top left, #E0FC9A, #7DB8BE);
+  height: 18%;
+  width: 16%;
+  left: 12%;
+  top: 34%;
+}
+
+.tile:nth-child(4) {
+  background-color: rgb(102, 187, 106);
+  height: 14%;
+  width: 12%;
+  left: 45%;
+  top: 48%;
+}
+
+.tile:nth-child(5) {
+/* Created with https://www.css-gradient.com */
+background: #45282A;
+background: -webkit-linear-gradient(bottom right, #45282A, #115449);
+background: -moz-linear-gradient(bottom right, #45282A, #115449);
+background: linear-gradient(to top left, #45282A, #115449);
+  height: 16%;
+  width: 32%;
+  left: 8%;
+  top: 70%;
+}
+
+.tile:nth-child(6) {
+  background-color: rgb(255, 167, 38);
+  height: 24%;
+  width: 24%;
+  left: 68%;
+  top: 8%;
+}
+
+.tile:nth-child(7) {
+/* Created with https://www.css-gradient.com */
+background: #166E4A;
+background: -webkit-linear-gradient(bottom right, #166E4A, #C3A3C7);
+background: -moz-linear-gradient(bottom right, #166E4A, #C3A3C7);
+background: linear-gradient(to top left, #166E4A, #C3A3C7);
+  height: 16%;
+  width: 20%;
+  left: 50%;
+  top: 74%;
+}
+
+.tile:nth-child(8) {
+/* Created with https://www.css-gradient.com */
+background: #599DEB;
+background: -webkit-linear-gradient(bottom right, #599DEB, #DA6084);
+background: -moz-linear-gradient(bottom right, #599DEB, #DA6084);
+background: linear-gradient(to top left, #599DEB, #DA6084);
+  height: 24%;
+  width: 18%;
+  left: 72%;
+  top: 42%;
+}
+
+.tile:nth-child(9) {
+/* Created with https://www.css-gradient.com */
+background: #B4FBF0;
+background: -webkit-linear-gradient(bottom right, #B4FBF0, #687B7A);
+background: -moz-linear-gradient(bottom right, #B4FBF0, #687B7A);
+background: linear-gradient(to top left, #B4FBF0, #687B7A);
+  height: 10%;
+  width: 8%;
+  left: 84%;
+  top: 84%;
+}
+
+/* -- YouTube Link Styles -- */
+
+body.menu-toggled > .meta-link > span {
+  color: rgb(30, 30, 30);
+}
+
+#source-link {
+  bottom: 60px;
+}
+
+#source-link > i {
+  color: rgb(94, 106, 210);
+}
+
+#yt-link > i {
+  color: rgb(239, 83, 80);
+}
+
+.meta-link {
+  align-items: center;
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  bottom: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;  
+  display: inline-flex;
+  gap: 5px;
+  left: 10px;
+  padding: 10px 20px;
+  position: fixed;
+  text-decoration: none;
+  transition: background-color 400ms, border-color 400ms;
+  z-index: 10000;
+}
+
+.meta-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.meta-link > i, .meta-link > span {
+  height: 20px;
+  line-height: 20px;
+}
+
+.meta-link > span {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+</style>
+<script>
+    const gallery = document.getElementById("gallery");
+
+window.onmousemove = e => {
+  const mouseX = e.clientX,
+        mouseY = e.clientY;
+  
+  const xDecimal = mouseX / window.innerWidth,
+        yDecimal = mouseY / window.innerHeight;
+  
+  const maxX = gallery.offsetWidth - window.innerWidth,
+        maxY = gallery.offsetHeight - window.innerHeight;
+  
+  const panX = maxX * xDecimal * -1,
+        panY = maxY * yDecimal * -1;
+  
+  gallery.animate({
+    transform: `translate(${panX}px, ${panY}px)`
+  }, {
+    duration: 5000,
+    fill: "forwards",
+    easing: "ease"
+  })
+}
+</script>
+</html>
